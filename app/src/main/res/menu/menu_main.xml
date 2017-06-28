@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.a520it.recyclerview01.MainActivity">
+    <item
+        android:id="@+id/action_lv"
+        android:orderInCategory="100"
+        android:title="切换为ListVIew"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_gv"
+        android:orderInCategory="100"
+        android:title="切换为GridView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_hor_gv"
+        android:orderInCategory="100"
+        android:title="切换为横向的GridView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_pubu"
+        android:orderInCategory="100"
+        android:title="切换为瀑布流"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="add"
+        android:icon="@drawable/ic_menu_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="delete"
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="always"/>
+</menu>
